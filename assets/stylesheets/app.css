@@ -1,0 +1,17 @@
+.top-bar, 
+.top-bar ul {
+  background: #000;
+}
+.top-bar {
+  padding: 0;
+}
+.center img {
+  display: block;
+  margin: 0 auto;
+}
+.logo {
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  margin: 18px auto;
+}
