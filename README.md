@@ -1,1 +1,1 @@
-Mad Rabbit Games
+<h1>Mad Rabbit Games</h1>
