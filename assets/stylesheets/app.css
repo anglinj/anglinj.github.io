@@ -5,13 +5,15 @@
 .top-bar {
   padding: 0;
 }
-.center img {
+.center--img {
   display: block;
   margin: 0 auto;
 }
 .logo {
   max-width: 150px;
-  width: 100%;
-  height: auto;
   margin: 18px auto;
+}
+img {
+  height: auto;
+  width: 100%;
 }
