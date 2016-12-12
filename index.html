@@ -5,13 +5,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mad Rabbit Games</title>
-    <link rel="stylesheet" href="assets/stylesheets/foundation.css">
+    <link rel="stylesheet" href="assets/stylesheets/foundation.min.css">
     <link rel="stylesheet" href="assets/stylesheets/app.css">
   </head>
 
   <body>
-    
-    <!-- Start Top Bar -->
     <div class="top-bar">
       <div class="row columns">
         <div class="small-4 large-3 columns">
@@ -23,36 +21,26 @@
         </div>
       </div>
     </div>
-    <!-- End Top Bar -->
 
-    <div class="">
+    <div class="shadow">
       <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
         <ul class="orbit-container">
           <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
           <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
           <li class="orbit-slide is-active">
-            <img src="http://placehold.it/2500x850">
-          </li>
-          <li class="orbit-slide">
-            <img src="http://placehold.it/2500x850">
-          </li>
-          <li class="orbit-slide">
-            <img src="http://placehold.it/2500x850">
-          </li>
-          <li class="orbit-slide">
-            <img src="http://placehold.it/2500x850">
+            <img src="assets/images/banner-1.jpg">
           </li>
         </ul>
       </div>
     </div>
+
+    <br>
 
     <div class="row column text-center">
       <h1>GAmeS! GaMes! gaMEs!</h1>
       <p class="lead"> 
         Mad Rabbit Games LLC is a table top game development company founded by Jonathan Anglin and Nick Harris.
       </p>
-      <!-- <a href="#" class="button large">Learn More</a> -->
-      <!-- <a href="#" class="button large hollow">Learn Less</a> -->
     </div>
 
     <hr>
@@ -83,23 +71,37 @@
     <div class="row">
       <div class="large-6 columns">
         <h4>About Our Story Telling Game</h4>
-        <img class="thumbnail" src="http://placehold.it/700x250">
-        <p>
-          This is a storytelling game that gives players the opportunity to create compelling stories together that will be remembered for years to come. Each card will help dictate how the story will unfold, but it's up to the group’s collective imagination to weave together a truly remarkable tale.
-        </p>
-          <ul>
-            <li>Q. What type of games is it?</li>
-            <li>A. It is a co-op story telling game.</li>
+        <img class="Story Telling the Mad Rabbit Way" src="assets/images/story-telling.jpg">
 
-            <li>Q. It is like D&amp;D?</li>
-            <li>A. Not really as D&amp;D is a table top RPG. This games focuses on the story elements more so than the players taking control of just one character and/or aspect of the story. That being said we are Alpha testing a table top RPG version of the game.</li>
+        <ul class="accordion" data-accordion>
+          <li class="accordion-item is-active" data-accordion-item>
+            <a href="#" class="accordion-title">Q. What type of games is it?</a>
+            <div class="accordion-content" data-tab-content>
+              A. This is a storytelling game that gives players the opportunity to create compelling stories together that will be remembered for years to come. Each card will help dictate how the story will unfold, but it's up to the group’s collective imagination to weave together a truly remarkable tale.
+            </div>
+          </li>
 
-            <li>Q. When will you guys be doing a play through?</li>
-            <li>A. We just completed the Beta testing phase of the game and we will be doing other play throughs at local games shops soon, we will post them in the events soon. Sorry for the slight delay.</li>
-          </ul>
+          <li class="accordion-item" data-accordion-item>
+            <a href="#" class="accordion-title">Q. It is like D&amp;D?</a>
+            <div class="accordion-content" data-tab-content>
+              A. Not really as D&amp;D is a table top RPG. This games focuses on the story elements more so than the players taking control of just one character and/or aspect of the story. That being said we are Alpha testing a table top RPG version of the game.
+            </div>
+          </li>
 
-          If you have any specific questions? Please do not hesitate to ask us. Thank you so much for your continued support!
-        </p>
+          <li class="accordion-item" data-accordion-item>
+            <a href="#" class="accordion-title">Q. When will you guys be doing a play through?</a>
+            <div class="accordion-content" data-tab-content>
+              A. We just completed the Beta testing phase of the game and we will be doing other play throughs at local games shops soon, we will post them in the events soon. Sorry for the slight delay.
+            </div>
+          </li>
+
+          <li class="accordion-item" data-accordion-item>
+            <a href="#" class="accordion-title">Have a specific question?</a>
+            <div class="accordion-content" data-tab-content>
+              Please do not hesitate to ask us on <a href="https://www.facebook.com/madrabbitgames" target="_blank">facebook</a> or via email @ madrabbitgamesllc@gmail.com
+            </div>
+          </li>
+        </ul>
       </div>
       <div class="large-6 columns">
         <h4>Games to Look Forward To</h4>
@@ -116,32 +118,10 @@
       </div>
     </div>
 
-    <hr>
-
-    <!-- <div class="row column">
-      <ul class="menu">
-        <li><a href="#">One</a></li>
-        <li><a href="#">Two</a></li>
-        <li><a href="#">Three</a></li>
-        <li><a href="#">Four</a></li>
-      </ul>
-    </div> -->
-
     <script src="assets/javascripts/vendor/jquery.js"></script>
     <script src="assets/javascripts/vendor/what-input.js"></script>
-    <script src="assets/javascripts/vendor/foundation.js"></script>
+    <script src="assets/javascripts/vendor/foundation.min.js"></script>
     <script src="assets/javascripts/app.js"></script>
 
-    <script>
-      $(document).foundation();
-    </script>
   </body>
-
-    <div class="row">
-      <div class="large-2 columns">
-      </div>
-      <div class="large-10 columns">
-      </div>
-    </div>
-
 </html>

@@ -2,18 +2,29 @@
 .top-bar ul {
   background: #000;
 }
+
 .top-bar {
   padding: 0;
 }
+
 .center--img {
   display: block;
   margin: 0 auto;
 }
+
 .logo {
   max-width: 150px;
   margin: 18px auto;
 }
+
 img {
   height: auto;
   width: 100%;
+}
+
+.shadow {
+  box-shadow: inset 0px 0px 35px 0px #615E5E;
+  -webkit-box-shadow: inset 0px 0px 35px 0px #615E5E;
+  -moz-box-shadow: inset 0px 0px 35px 0px #615E5E;
+  -o-box-shadow: inset 0px 0px 35px 0px #615E5E;
 }
