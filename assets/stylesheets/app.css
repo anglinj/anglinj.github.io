@@ -21,11 +21,12 @@ img {
 .top-img {
   min-height: 300px;
   min-width: 700px;
+  border-bottom: 5px #000 solid;
 }
 
 .center--img {
   display: block;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .logo {
