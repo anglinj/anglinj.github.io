@@ -23,6 +23,9 @@ img {
 }
 
 .orbit-border {
-  /*border-top: #43986d 10px solid;*/
   border-bottom: #000 10px solid;
+}
+
+.border {
+  border: #ccc 1px solid;
 }
