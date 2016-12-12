@@ -19,8 +19,8 @@ img {
 }
 
 .top-img {
-  min-height: 300px;
-  min-width: 700px;
+/*  min-height: 300px;
+  min-width: 700px;*/
   border-bottom: 5px #000 solid;
 }
 
@@ -44,6 +44,7 @@ img {
   box-shadow: inset 0px 0px 53px 4px rgba(0,0,0,0.36);
   display: block;
 }
+
 .shadow {
   -webkit-box-shadow: 0px 0px 53px 4px rgba(0,0,0,0.36);
   -moz-box-shadow: 0px 0px 53px 4px rgba(0,0,0,0.36);
