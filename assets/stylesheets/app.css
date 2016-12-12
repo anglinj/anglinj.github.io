@@ -22,9 +22,7 @@ img {
   width: 100%;
 }
 
-.shadow {
-  box-shadow: inset 0px 0px 35px 0px #615E5E;
-  -webkit-box-shadow: inset 0px 0px 35px 0px #615E5E;
-  -moz-box-shadow: inset 0px 0px 35px 0px #615E5E;
-  -o-box-shadow: inset 0px 0px 35px 0px #615E5E;
+.orbit-border {
+  /*border-top: #43986d 10px solid;*/
+  border-bottom: #000 10px solid;
 }
