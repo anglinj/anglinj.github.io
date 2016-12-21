@@ -15,8 +15,8 @@ img {
 }
 
 .top-menu {
-  position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
   z-index: 2;
 }
 
@@ -58,11 +58,11 @@ img {
   box-shadow: 0px 0px 53px 4px rgba(0,0,0,0.36);
 }
 
-.light-yellow-bg {
+.lyellow-bg {
   background: #fffef8;
 }
 
-.light-grey-bg {
+.lgrey-bg {
   background: #f4f4f4;
 }
 
