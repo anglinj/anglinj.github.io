@@ -19,8 +19,6 @@ img {
 }
 
 .top-img {
-/*  min-height: 300px;
-  min-width: 700px;*/
   border-bottom: 5px #000 solid;
 }
 
@@ -54,4 +52,13 @@ img {
 .orbit-container {
   background: #575757;
   max-height: 250px;
+}
+
+.content {
+  padding: 20px 0;
+}
+
+.footer {
+  background: #000;
+  color:#fff;
 }
