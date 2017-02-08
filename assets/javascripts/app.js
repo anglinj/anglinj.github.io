@@ -20,3 +20,11 @@ $(document).foundation();
 //         }, 300);
 //     });
 // })(jQuery);
+
+
+$('#read-intro').click(function() {
+  $('#intro').animate({ 
+    height: "toggle", 
+    opacity: "toggle"
+  });
+});

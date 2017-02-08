@@ -112,3 +112,7 @@ a {
 .top-bar, .top-bar ul {
   background: transparent;
 }
+
+#intro {
+  display: none;
+}
