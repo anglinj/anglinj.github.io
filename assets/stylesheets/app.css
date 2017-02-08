@@ -26,12 +26,12 @@ img {
 
 .top-img {
   border-bottom: 5px #000 solid;
-  min-height: 400px;
+  min-height: 480px;
   z-index: 1;
 }
 
 .top-img img {
-  min-height: 400px;
+  min-height: 480px;
   min-width: 1005px;
 }
 
@@ -107,4 +107,8 @@ a {
 .accordion-title {
   color: #37b0ba;
   font-weight: bolder;
+}
+
+.top-bar, .top-bar ul {
+  background: transparent;
 }

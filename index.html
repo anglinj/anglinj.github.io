@@ -25,22 +25,17 @@
 
       <div class="top-img">
         <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; data-timer-delay:15000">
-          <ul class="orbit-container  shadow">
+          <ul class="orbit-container">
             <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
             <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
             <li class="orbit-slide  is-active">
-              <img data-interchange="[assets/images/banner_2.large.jpg, small], [assets/images/banner_2.large.jpg, medium], [assets/images/banner_2.large.jpg, large]">
-              <noscript><img src="assets/images/banner_2.large.jpg"></noscript>
+              <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/images/banner_2.large.jpg" style="height:480px"></div>
             </li>
-            
-            <!-- <li class="orbit-slide">
-              <img data-interchange="[assets/images/banner.large.jpg, small], [assets/images/banner.large.jpg, medium], [assets/images/banner.large.jpg, large]">
-              <noscript><img src="assets/images/banner.large.jpg"></noscript>
-            </li> -->
           </ul>
         </div>
       </div>
     </div>
+
 
     <!-- <div class="follow-scroll">
       <img src="assets/images/gears.png" style="max-width:64px;">
@@ -152,6 +147,7 @@
 
         <div class="medium-10  large-10  columns">
           <br>
+          <br>
           <p>
             <img src="assets/images/janglin_title.png" style="max-width:173px;"> - The Mechanic
           </p>
@@ -220,6 +216,7 @@
     <script src="assets/javascripts/vendor/jquery.js"></script>
     <script src="assets/javascripts/vendor/what-input.js"></script>
     <script src="assets/javascripts/vendor/foundation.min.js"></script>
+    <script src="assets/javascripts/vendor/parallax.js-1.4.2/parallax.js"></script>
     <script src="assets/javascripts/app.js"></script>
 
   </body>
