@@ -71,7 +71,7 @@ img {
 }
 
 .footer {
-  background: #000;
+  background: #313131;
   font-size: 10pt;
   color: #fff;
 }
@@ -84,4 +84,23 @@ img {
 .orbit-previous,
 .orbit-next {
   display: none;
+}
+
+#top .accordion-title {
+  background: #37b0ba;
+  border: 0;
+  color: #fff;
+}
+
+.button {
+  background: #37b0ba;
+}
+
+a {
+  color: #37b0ba;
+}
+
+.accordion-title {
+  color: #37b0ba;
+  font-weight: bolder;
 }
