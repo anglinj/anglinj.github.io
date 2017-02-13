@@ -45,6 +45,11 @@ img {
   margin: 18px auto;
 }
 
+.logo--text {
+  max-width: 775px;
+  padding: 40px 0;
+}
+
 .border {
   border: #ccc 1px solid;
 }
@@ -119,11 +124,6 @@ a {
 
 .center--text {
   text-align: center;
-}
-
-.logo-text {
-  max-width:775px;
-  padding: 40px 0;
 }
 
 .staff_section {
