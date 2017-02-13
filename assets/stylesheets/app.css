@@ -126,6 +126,22 @@ a {
   padding: 40px 0;
 }
 
+.staff_section {
+  border-bottom: 2px #000 solid;
+  background: #313131;
+  color: #fff;
+}
+
+.staff_section--img {
+  border: 3px #000 solid;
+  max-width: 250px;
+}
+
+.dark_section {
+  background: #313131;
+  color: #fff;
+}
+
 @media only screen and (max-width: 40em) {
   .logo-text {
     padding: 0;
