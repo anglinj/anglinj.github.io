@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'PressStart';
+  src: url('../fonts/PressStart2P-Regular.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/PressStart2P-Regular.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PressStart2P-Regular.ttf') format('woff'), /* Modern Browsers */
+       url('../fonts/PressStart2P-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
+.font-10 {
+  font-size: 10pt;
+}
+
+.pokemon-title {
+  font-family: Pokemon;
+  font-size: 3em;
+  color: #ffcb05;
+  text-shadow: -4px 0 #2a75bb, 0 10px #2a75bb, 4px 0 #2a75bb, 0 -4px #2a75bb;
+}
+
+.start-font {
+  font-family: 'PressStart', serif;
+}
+
+.invisible {
+  height: 0;
+}
+
+.move-list-item {
+  cursor: pointer;
+}
+
+.move-list-item:nth-child(even) {
+  background-color: #eee;
+}
+
+#progressbar{
+  height: 26px;
+  position: fixed;
+  width: 350px;
+  background: rgba(159, 159, 159, 0.5);
+  border-radius: 10px;
+}
+
+#loading{
+  transition: all 1000ms ease;
+  height: 20px;
+  width: calc(100% - 10px);
+  border-radius: 8px;
+  background: #CC0000;
+  position: absolute;
+  margin: 3px;
+  display: inline-block;
+  animation: load 12s ease infinite;
+}
+
+.testing-text{
+  font-weight: bold;
+}
+
+.start-font {
+  font-family: 'PressStart', serif;
+}
+
+.details-modal {
+  position: fixed;
+  top: 0;
+  z-index: 1055;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  background: #fff;
+  max-width: 1117px;
+  border: solid;
+  margin-top: 5%;
+}
+
+.hide {
+  display: none;
+}
+
+@keyframes load{
+  0%{
+    width: 2%;
+  }
+  10%{
+    width: 10%;
+  }
+}

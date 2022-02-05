@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pokémon Generator - v0.6</title>
+
+  <link
+    href="https://db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon"
+    rel="stylesheet"
+    type="text/css"/>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous">
+  <link
+    href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+    rel="stylesheet" />
+  <link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container"> 
+    <div class="text-center  p-3">
+      <img src="imgs/pokémon_logo.svg" alt="Pokémon" class="b-3" />
+      <h3 class="text-center  start-font">Generator</h3>
+      <h5 class="text-center  start-font">v0.6</h5>
+    </div>
+
+    <div class="cap  start-font  b-3">
+      <select name="pokemon" class="form-select  js-example-basic-single" id="pokemon-list" onChange="$.fn.get_pokemon(this.value)">
+        <option selected disabled>- Select a Pokémon -</option>
+      </select>
+    </div>
+
+    <div class="invisible">
+      <img class="pokemon-image  border  border-3  rounded-3  bg-light  bg-gradient  p-3  m-3" src="" width="200px">
+    </div>
+
+    <div class="invisible">
+      <h3 class="start-font  t-3">
+        Base Stats
+        <br>
+        <span class="font-10">
+          Growth Rate: <i class="growth-rate"></i><br>
+          Base Experience: <i class="base-exp"></i>
+        </span>
+      </h3>
+
+      <hr>
+
+      <div id="base-stats" class="row  pb-5"></div>
+
+      <h3 class="text-white  bg-dark  bg-gradient  p-3  rounded-top  start-font  mb-0">
+        Calculate Nature & IVs 
+      </h3>
+
+      <div class="border  border-dark  p-3  mb-0">
+        <div class="start-font">
+          Nature: <b id="nature-stat" class="text-success"></b>
+        </div>
+        <br>
+        <div id="iv-stats"></div>
+      </div>
+
+      <button class="calculate  btn  btn-danger  start-font  p-3  mb-5  mt-3">Generate Stats</button>
+
+      <h3 class="text-white  bg-dark  bg-gradient  p-3  rounded-top  start-font  mb-0  list-group">
+        Generated Moves 
+      </h3>
+
+      <div class="border  border-dark  p-0  mb-0" data-spy="scroll">
+        <div id="generated-moves"></div>
+      </div>
+      <button class="generate_moves  btn  btn-danger  start-font  p-3  mb-5  mt-3">Generate Moves</button>
+
+      <h3 class="text-white  bg-dark  bg-gradient  p-3  rounded-top  start-font  mb-0  list-group">
+        Available Moves
+      </h3>
+
+      <div class="border  border-dark  p-0  mb-5" data-spy="scroll">
+        <div id="available-moves-list"></div>
+      </div>
+
+      <div class="details-modal  p-3  hide">
+        <div id="move-description" class="row  pb-5  start-font"></div>
+        <button class="clode-modal  btn  btn-primary  start-font">Close</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script
+    src="js/gen.js"></script>
+
+</body>
+</html>
